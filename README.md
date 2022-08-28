@@ -1,7 +1,7 @@
 #Remindex AI
 <p>Remindex AI is a website that allows you to shorten an URL</p>
 
-<button onclick = "https://remindex-ai.web.app/">demo Test (the server shall be down, if this is the case, start the project on local by following these steps) : </button>
+demo Test (the server shall be down, if this is the case, start the project on local by following these steps) : <a href = "https://remindex-ai.web.app/">Demo</a>
 
 <h1>Start the project on local </h1>
 <ul>
