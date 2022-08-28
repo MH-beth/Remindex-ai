@@ -1,0 +1,18 @@
+{
+  "name": "reatex-server",
+  "version": "0.0.1",
+  "description": "this is the serverside of reactex, a website that help you in remembering all the key information of a specific book. The technic used in this website was created by Robert Greens, the author of the bestselling book called \"the 48 laws of power\", so i decided to digitilize the process that he created, so that it will be easy to access every key information of all the books that a user read without being overwhelmed by the huge number of carts or whatever.",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MH-beth",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.19"
+  }
+}
