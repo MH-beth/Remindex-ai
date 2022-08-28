@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+#Remindex AI
+<p>Remindex AI is a website that allows you to shorten an URL</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<button onclick = "https://remindex-ai.web.app/">demo Test (the server shall be down, if this is the case, start the project on local by following these steps) : </button>
 
-## Available Scripts
+<h1>Start the project on local </h1>
+<ul>
+  <li>1- Install the project (git clone https://github.com/MH-beth/Remindex-ai)</li>
+  <li>2 - cd remindex_ai</li>
+  <li>3- Run "npm install"</li>
+  <li>4- cd server </li>
+  <li>5- run "npm install" </li>
+  <li>6- Open a first terminal and run "npm start" on the root file</li>
+  <li> 7- open a second terminal and run "npm start" on remindex-ai/server </li>
+  <li> ATTENTION : Don't forget to change the file remindex-ai/src/constants.js by the following lines </li>
+</ul>
 
-In the project directory, you can run:
+```
+export const API_URL = "http://localhost:8080"
+export const CLIENT  = "http://localhost:3000"
+```
+<p>remplacement code of the file remindex-ai/src/constants.js when running local<p>
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h6>Copyright and all right reserved MH-BETH </h6>
